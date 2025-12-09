@@ -46,11 +46,13 @@ git clone https://github.com/pleomati/macroflow.git
 cd macroflow
 ```
 # Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 # Run the script
+```bash
 python MacroFlow.py
-
+```
 ### Option 2: Standalone Executable (Recommended)
 Download the latest release for your system:
 

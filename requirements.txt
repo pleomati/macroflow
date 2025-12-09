@@ -1,0 +1,27 @@
+# Core Dependencies
+pyautogui>=0.9.54
+pynput>=1.7.6
+opencv-python>=4.9.0.80
+Pillow>=10.0.0
+numpy>=1.26.4
+
+# GUI and System Integration
+pystray>=0.19.0
+tkinter  # Usually comes with Python, no pip install needed
+
+# For recording/playback
+keyboard>=0.13.5  # Alternative if pynput has issues
+mouse>=0.7.1      # Alternative if pynput has issues
+
+# Optional: For building executables
+# pyinstaller>=6.0.0  # Better than Nuitka for this project
+nuitka>=1.9.6  # Keep as optional if you prefer
+
+# Optional: For better GUI
+ttkthemes>=3.2.0  # Better looking tkinter themes
+
+# Optional: For logging improvements
+colorlog>=6.8.0
+
+# Platform-specific (will be ignored if not available)
+# No platform-specific in requirements.txt - handle in setup.py instead
